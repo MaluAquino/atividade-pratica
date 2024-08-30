@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header style="background-image: url(Img/backgroud.png);"> <!--Definindo uma imagem de backgroud-->
+        <div class="container">
+            <nav>
+                <a href="index.html"> <!--Sempre que clilcar no logo volta para a página inicial-->
+                    <img src="Img/logo.png" alt="logo">
+                </a>
+                <ul class="menu"> <!--Usando a Tag UL pra criar o menu de navegação-->
+                    <a href="index.html">Home</a>
+                    <a href="sobremim.html">Sobre Mim</a>
+                    <a href="formacao.html">Formação</a>
+                    <a href="portfolio.html">Portfólio</a>
+                    <a class="botao" href="contato.html">Contato</a>
+                </ul>
+            </nav>
+            <section class="banner"> <!--Primeira coisa que aparecerá ao abrir o link-->
+                <div class="banner-text">
+                    <h1>Contato</h1>
+                </div> <!--Fim da div banner-text-->
+            </section> <!--Fim da section banner-->
+        </div> <!--Fim da div container-->
+    </header>
+
+
+    <section class="contato"> <!-- Criando uma sessão para inserir o conteúdo no site-->
+        <div class="container"> <!-- Tag padrão usada em todo o site para facilitar a estilização-->
+            <div class="form"> <!--Utilizando um formulário para criar a parte de contato-->
+                <h3 style="color: #6ca0ba"> Entre em contato</h3> <!--CSS inline para mudar apenas esse H3-->
+                <br>
+                <form> <!--Inserindo inputs, textarea e um button para o preenchimento e envio do formulário-->
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="text" placeholder="Assunto" required>
+                    <textarea cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                    <button class="botao">Enviar mensagem</button>
+                </form>
+            </div> <!--Fim da div form-->
+        </div> <!--Fim da div container-->
+    </section> <!--Fim da section contato-->
+</body>
+</html>

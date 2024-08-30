@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header style="background-image: url(Img/backgroud.png);"> <!--Definindo uma imagem de backgroud-->
+        <div class="container">
+            <nav>
+                <a href="index.html"> <!--Sempre que clilcar no logo volta para a página inicial-->
+                    <img src="Img/logo.png" alt="logo">
+                </a>
+                <ul class="menu"> <!--Usando a Tag UL pra criar o menu de navegação-->
+                    <a href="index.html">Home</a>
+                    <a href="sobremim.html">Sobre Mim</a>
+                    <a href="formacao.html">Formação</a>
+                    <a href="portfolio.html">Portfólio</a>
+                    <a class="botao" href="contato.html">Contato</a>
+                </ul>
+            </nav>
+            <section class="banner"> <!--Primeira coisa que aparecerá ao abrir o link-->
+                <div class="banner-text">
+                    <h1>Portfólio</h1>
+                </div> <!--Fim da div banner-text-->
+            </section> <!--Fim da section banner-->
+        </div> <!--Fim da div container-->
+    </header>
+
+
+    <section class="portfolio"> <!-- Criando uma sessão para inserir o conteúdo no site-->
+        <div class="container"> <!-- Tag padrão usada em todo o site para facilitar a estilização-->
+            <h3>Portfólio</h3>
+            <div class="cards">
+                <!--Imagem 01-->
+                <div class="cards-item">
+                    <img src="Img/BD.png" alt="Modelo Lógico">
+                    <h1>Modelo Lógico</h1>
+                    <p>Modelo Lógico fictício criado para a matéria de Banco de Dados.</p>
+                </div> <!--Fim da div convite-item-->
+                <!-- Fim imagem 01-->
+                <!--Imagem 02-->
+                <div class="cards-item">
+                    <img src="Img/MER.png" alt="MER">
+                    <h1>Modelo Entidade-Relacionamento</h1>
+                    <p>Modelo Entidade-Relacionamento fictício criado para a matéria de Sistema Gerenciador de Banco de Dados.</p>
+                </div> <!--Fim da div convite-item-->
+                <!-- Fim imagem 02-->
+                <!--Imagem 03-->
+                <div class="cards-item">
+                    <img src="Img/robotica.png" alt="Robótica">
+                    <h1>Olimpíadas de Robótica 2023</h1>
+                    <p>Foto tirada durante a Olimpíada de Robótica 2023 organizada pelo CEPIC na cidade de Novo Hamburgo.</p>
+                </div> <!--Fim da div cards-item-->
+                <!-- Fim imagem 03-->
+            </div> <!--Fim da div cards-->
+        </div> <!--Fim da div container-->
+    </section> <!--Fim da section portfolio-->
+</body>
+</html>
